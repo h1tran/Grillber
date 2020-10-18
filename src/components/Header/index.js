@@ -19,6 +19,17 @@ const Header = props => {
                 <div className="hover flex">
                     <p>COVID-19 Resources</p>
                 </div>
+                <div className="hover flex">
+                    <i class="fas fa-ellipsis-v"></i>
+                    <p>Products</p>
+                </div>
+                <div className="hover flex">
+                    <i class="far fa-user"></i>
+                    <p>Log in</p>
+                </div>
+                <div className="sign-up flex">
+                    <p>Sign Up</p>
+                </div>
             </div>
         </header>
     );

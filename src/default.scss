@@ -50,20 +50,21 @@ p {
     
     p {
         user-select: none;
+        width: max-content;
     }
 
     p.logo {
         font-family: 'Uber Move', sans-serif;
         font-size: 2rem;
-        margin: -0.2rem 3.0rem 0 0;
+        margin: -0.1rem 3.0rem 0 0;
     }
 
     div.hover {
         height: 55%;
         width: max-content;
-        padding: 0 1.5rem 0 1.5rem;
+        padding: 0 1.2rem 0 1.2rem;
         background-color: rgb(0, 0, 0);
-        transition: all .3s ease-in-out;
+        transition: all .25s ease-in-out;
 
         i {
             color:white;
@@ -71,15 +72,39 @@ p {
     }
 
     div.hover:hover {
-        background-color: rgb(60, 60, 60);
-        border-radius: 50px;
-        transition: all .3s ease-in-out;
+        background-color: rgb(54, 54, 54);
+        border-radius: 35px;
+        transition: all .25s ease-in-out;
         cursor: pointer;
     }
+
+    div.sign-up {
+        height: 55%;
+        width: max-content;
+        padding: 0 1.2rem 0 1.2rem;
+        background-color: rgb(255, 255, 255);
+        border-radius: 35px;
+        transition: all .25s ease-in-out;
+
+        p {
+            color: black;
+        }
+    }
+
+    div.sign-up:hover {
+        background-color: rgb(226, 226, 226);
+        border-radius: 35px;
+        transition: all .25s ease-in-out;
+        cursor: pointer;
+    }
+}
+
+.hover:nth-child(5) {
+    margin: 0 32vw 0 0;
 }
 
 .flex {
     display: flex; flex-direction: row;
     align-items: center;
-    column-gap: 1.4rem;
+    column-gap: 0.8rem;
 }
