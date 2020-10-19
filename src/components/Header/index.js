@@ -6,7 +6,7 @@ const Header = props => {
     return (
         <header className="header">
             <div className="wrap flex">
-                <Link to="/">
+                <Link to="/Grillber">
                     <p className="logo">Grillber</p>
                 </Link>
                 <div className="hover flex">
