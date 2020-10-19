@@ -3,17 +3,19 @@ import Header from './components/Header'
 import Safety from './components/pages/Safety'
 import Homepage from './components/pages/Homepage';
 import './default.scss';
-import { BrowserRouter as HashRouter, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <HashRouter>
+    <Router basename='/'>
       <div className="App">
         <Header />
-          <Route path="/" exact component={Homepage} />
+        <Switch>
+          <Route exact path='/' component={Homepage} />
           <Route path="/Safety" component={Safety} />
+        </Switch>
       </div>
-    </HashRouter>
+    </Router>
   );
 }
 
