@@ -11,14 +11,22 @@
     src: url("../src/assets/font/UberMoveTextLight.otf") format("opentype");
 }
 
+
 html {
     font-size: 10px;
 }
 
 html, body {
-    height: 101%;
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
     padding: 0;
+    overflow: hidden;
+}
+
+.body {
+    height: 100vh; 
+    overflow-y: scroll;
 }
 
 *, ::before, ::after {
@@ -49,10 +57,9 @@ p {
 
 .wrap {
     position: relative;
-    height: 100%; 
-    padding-left: 11%;
+    height: 100%;
     margin: 0 auto;
-    
+
     p {
         user-select: none;
         width: max-content;
@@ -102,12 +109,14 @@ p {
     transition: all .3s ease-in-out;
 }
 
-.hover:nth-child(5) {
-    margin: 0 26vw 0 0;
-}
-
 .flex {
     display: flex; flex-direction: row;
     align-items: center;
     column-gap: 0.8rem;
+}
+
+.flex-2 {
+    display: flex; flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }

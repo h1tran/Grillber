@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles.scss';
+import './homepage.scss';
 import Shield from '../../../assets/shield-white-tablet-mobile-4.svg';
 
 const Homepage = props => {

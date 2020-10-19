@@ -1,0 +1,89 @@
+.background {
+    width: 100%;
+    height: 940px;
+    background-image: url('../../../assets/mask-girl.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.safety-wrap {
+    padding-top: 15%;
+    padding-bottom: 16%;
+
+    .container {
+        h1.title {
+            color: white;
+        }
+
+        p {
+            font-size: 1.6rem;
+            font-family: 'Uber Move Text Light', sans-serif;
+            font-weight: 300;
+            margin: 0 0 1.5rem;
+            line-height: 1.5;
+        }
+    }
+}
+
+.safety-container {
+    margin-left: 15.5%;
+    width: 74.8rem;
+    padding-bottom: 3%;
+
+    h2 {
+        font-size: 3.6rem;
+        font-family: 'Uber Move Text', sans-serif;
+        font-weight: 600;
+        color: #333333;
+    }
+
+    p {
+        font-size: 1.6rem;
+        font-family: 'Uber Move Text Light', sans-serif;
+        font-weight: 400;
+        margin: 0 0 1.5rem;
+        line-height: 1.5;
+        color: #333333;
+        padding-bottom: 3%;
+    }
+
+    .left {
+        border-bottom: solid 1px #8f8f8f85;
+        padding-bottom: 0.3rem;
+        
+        p {
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+    /*
+    Link hover effect for border bottom (left to right) by Martin Wolf.
+    
+    Give the hyperlink 'a' tag a black underline. 
+    Using inline-block, we constrain the border to set only under text. Animate the width from 0 to 100% using transitions.
+    */
+
+    .animation {
+        color: #000;
+    }
+
+    .animation::after {
+        content: '';
+        display: block;
+        width: 0;
+        margin-top: -0.1rem;
+        height: 1px;
+        background: #000;
+        transition: width .3s ease-in-out;
+    }
+
+    .animation:hover::after {
+        width: 100%;
+    }
+
+    .flex {
+        column-gap: 3rem;
+    }
+}
