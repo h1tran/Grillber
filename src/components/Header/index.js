@@ -1,18 +1,23 @@
 import React from 'react';
 import './styles.scss';
+import { Link } from 'react-router-dom';
 
 const Header = props => {
     return (
         <header className="header">
             <div className="wrap flex">
-                <p className="logo">Grillber</p>
+                <Link to="/">
+                    <p className="logo">Grillber</p>
+                </Link>
                 <div className="hover flex">
                     <p>Company</p>
                     <i class="fas fa-angle-down"></i>
                 </div>
-                <div className="hover flex">
-                    <p>Safety</p>
-                </div>
+                <Link to='/Safety'>
+                    <div className="hover flex">
+                        <p>Safety</p>
+                    </div>
+                </Link>
                 <div className="hover flex">
                     <p>Help</p>
                 </div>

@@ -55,4 +55,9 @@
 
 .flex-column {
     display: flex; flex-direction: column;
+    margin-bottom: 4rem;
+}
+
+a, a:visited {
+    color:inherit;
 }
