@@ -2,9 +2,10 @@ import React from 'react';
 
 const Homepage = props => {
     return (
-        <section>
-        </section>
-    );
+        <div>
+            <h1>Hello World!</h1>
+        </div>
+    );  
 };
 
 export default Homepage;

@@ -20,7 +20,11 @@ const Header = props => {
                     <p>COVID-19 Resources</p>
                 </div>
                 <div className="hover flex">
-                    <i class="fas fa-ellipsis-v"></i>
+                    <i class="fas fa-globe"></i>
+                    <p>EN</p>
+                </div>
+                <div className="hover flex">
+                    <i class="far fa-circle"></i>
                     <p>Products</p>
                 </div>
                 <div className="hover flex">
@@ -28,7 +32,7 @@ const Header = props => {
                     <p>Log in</p>
                 </div>
                 <div className="sign-up flex">
-                    <p>Sign Up</p>
+                    <p>Sign up</p>
                 </div>
             </div>
         </header>

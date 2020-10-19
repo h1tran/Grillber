@@ -1,13 +1,13 @@
 import React from 'react';
 import Header from './components/Header'
-import Homepage from './components/pages/Homepage';
+import Safety from './components/pages/Safety';
 import './default.scss';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Homepage />
+      <Safety />
     </div>
   );
 }
