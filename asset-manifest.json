@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Grillber/static/css/main.7eb3a7a4.chunk.css",
-    "main.js": "/Grillber/static/js/main.ff5435aa.chunk.js",
-    "main.js.map": "/Grillber/static/js/main.ff5435aa.chunk.js.map",
+    "main.js": "/Grillber/static/js/main.cdb91ded.chunk.js",
+    "main.js.map": "/Grillber/static/js/main.cdb91ded.chunk.js.map",
     "runtime-main.js": "/Grillber/static/js/runtime-main.2cac7c0e.js",
     "runtime-main.js.map": "/Grillber/static/js/runtime-main.2cac7c0e.js.map",
     "static/js/2.701e0b6f.chunk.js": "/Grillber/static/js/2.701e0b6f.chunk.js",
     "static/js/2.701e0b6f.chunk.js.map": "/Grillber/static/js/2.701e0b6f.chunk.js.map",
     "index.html": "/Grillber/index.html",
-    "precache-manifest.c9d3cfa8875bcb7d4fc75d6c218fa2c1.js": "/Grillber/precache-manifest.c9d3cfa8875bcb7d4fc75d6c218fa2c1.js",
+    "precache-manifest.8fbd05dfdca137322c9d193f7d3abd8d.js": "/Grillber/precache-manifest.8fbd05dfdca137322c9d193f7d3abd8d.js",
     "service-worker.js": "/Grillber/service-worker.js",
     "static/css/main.7eb3a7a4.chunk.css.map": "/Grillber/static/css/main.7eb3a7a4.chunk.css.map",
     "static/js/2.701e0b6f.chunk.js.LICENSE.txt": "/Grillber/static/js/2.701e0b6f.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.2cac7c0e.js",
     "static/js/2.701e0b6f.chunk.js",
     "static/css/main.7eb3a7a4.chunk.css",
-    "static/js/main.ff5435aa.chunk.js"
+    "static/js/main.cdb91ded.chunk.js"
   ]
 }
