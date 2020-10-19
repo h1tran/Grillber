@@ -15,12 +15,12 @@ const Safety = props => {
                 <h2>Helping to keep each other safe during COVID-19</h2>
                 <p>We’re actively monitoring the coronavirus (COVID-19) situation and are continually working to help keep those who rely on our platform healthy and safe.</p>
                 <div className="flex">
-                    <a href="/Safety" className="animation">
+                    <a href="#!" className="animation">
                         <div className="left">
                             <p>Go to Uber’s COVID-19 Hub</p>
                         </div>
                     </a>
-                    <a href="/Safety" className="animation">
+                    <a href="#!" className="animation">
                         <div className="left">
                             <p>Read about our new Door-to-Door Safety Standard</p>
                         </div>

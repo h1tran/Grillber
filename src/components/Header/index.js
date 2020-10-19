@@ -7,7 +7,7 @@ const Header = props => {
         <header className="header">
             <div className="wrap flex-2">
                 <div className="flex">
-                    <Link to="/Grillber">
+                    <Link to="/">
                         <p className="logo">Grillber</p>
                     </Link>
                     <div className="hover flex">
