@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/Grillber/static/css/main.7eb3a7a4.chunk.css",
-    "main.js": "/Grillber/static/js/main.bf56a768.chunk.js",
-    "main.js.map": "/Grillber/static/js/main.bf56a768.chunk.js.map",
+    "main.css": "/Grillber/static/css/main.12f558a6.chunk.css",
+    "main.js": "/Grillber/static/js/main.e484becb.chunk.js",
+    "main.js.map": "/Grillber/static/js/main.e484becb.chunk.js.map",
     "runtime-main.js": "/Grillber/static/js/runtime-main.2cac7c0e.js",
     "runtime-main.js.map": "/Grillber/static/js/runtime-main.2cac7c0e.js.map",
-    "static/js/2.2f9e6fde.chunk.js": "/Grillber/static/js/2.2f9e6fde.chunk.js",
-    "static/js/2.2f9e6fde.chunk.js.map": "/Grillber/static/js/2.2f9e6fde.chunk.js.map",
+    "static/js/2.f0048705.chunk.js": "/Grillber/static/js/2.f0048705.chunk.js",
+    "static/js/2.f0048705.chunk.js.map": "/Grillber/static/js/2.f0048705.chunk.js.map",
     "index.html": "/Grillber/index.html",
-    "precache-manifest.87e90dd2b5ff4e7564b7edb30a025019.js": "/Grillber/precache-manifest.87e90dd2b5ff4e7564b7edb30a025019.js",
+    "precache-manifest.d3c3c253b8a872f94c60ab28cb8254d6.js": "/Grillber/precache-manifest.d3c3c253b8a872f94c60ab28cb8254d6.js",
     "service-worker.js": "/Grillber/service-worker.js",
-    "static/css/main.7eb3a7a4.chunk.css.map": "/Grillber/static/css/main.7eb3a7a4.chunk.css.map",
-    "static/js/2.2f9e6fde.chunk.js.LICENSE.txt": "/Grillber/static/js/2.2f9e6fde.chunk.js.LICENSE.txt",
+    "static/css/main.12f558a6.chunk.css.map": "/Grillber/static/css/main.12f558a6.chunk.css.map",
+    "static/js/2.f0048705.chunk.js.LICENSE.txt": "/Grillber/static/js/2.f0048705.chunk.js.LICENSE.txt",
+    "static/media/signup.scss": "/Grillber/static/media/1477347860-pattern.46c1ae1d.png",
     "static/media/default.scss": "/Grillber/static/media/UberMoveTextRegular.56a881f5.otf",
+    "static/media/mask-cartoon.png": "/Grillber/static/media/mask-cartoon.0d60063e.png",
     "static/media/safety.scss": "/Grillber/static/media/mask-girl.c6ef9c33.jpg",
     "static/media/shield-white-tablet-mobile-4.svg": "/Grillber/static/media/shield-white-tablet-mobile-4.dbfdbd99.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.2cac7c0e.js",
-    "static/js/2.2f9e6fde.chunk.js",
-    "static/css/main.7eb3a7a4.chunk.css",
-    "static/js/main.bf56a768.chunk.js"
+    "static/js/2.f0048705.chunk.js",
+    "static/css/main.12f558a6.chunk.css",
+    "static/js/main.e484becb.chunk.js"
   ]
 }
