@@ -28,42 +28,7 @@
     p {
         font-weight: 400;
         color: #333333;
-        padding-bottom: 3%;
-    }
-
-    .left {
-        border-bottom: solid 1px #8f8f8f85;
-        padding-bottom: 0.3rem;
-        
-        p {
-            margin: 0;
-            padding: 0;
-        }
-    }
-
-    /*
-    Link hover effect for border bottom (left to right) by Martin Wolf.
-    
-    Give the hyperlink 'a' tag a black underline. 
-    Using inline-block, we constrain the border to set only under text. Animate the width from 0 to 100% using transitions.
-    */
-
-    .animation {
-        color: #000;
-    }
-
-    .animation::after {
-        content: '';
-        display: block;
-        width: 0;
-        margin-top: -0.1rem;
-        height: 1px;
-        background: #000;
-        transition: width .25s ease;
-    }
-
-    .animation:hover::after {
-        width: 100%;
+        padding-bottom: 2.2rem;
     }
 
     .flex {
@@ -77,7 +42,7 @@
     justify-content: center;
 
     .flex {
-        width: 115rem;
+        width: 114rem;
         justify-content: space-between;
     }
     
@@ -87,7 +52,7 @@
 
     .flex-column {
         padding-top: 2rem;
-        width: 46rem;
+        width: 44.8rem;
         text-align: left;
     }
 }

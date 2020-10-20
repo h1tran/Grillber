@@ -1,5 +1,7 @@
 import React from 'react';
 import './safety.scss';
+
+import Underline from '../../Animation/underline';
 import mask_illustration from '../../../assets/mask-cartoon.png';
 
 const Safety = props => {
@@ -16,16 +18,8 @@ const Safety = props => {
                 <h2 className="header-font">Helping to keep each other safe during COVID-19</h2>
                 <p className="font">We’re actively monitoring the coronavirus (COVID-19) situation and are continually working to help keep those who rely on our platform healthy and safe.</p>
                 <div className="flex">
-                    <a href="#/Safety" className="animation">
-                        <div className="left">
-                            <p className="font">Go to Grillber’s COVID-19 Hub</p>
-                        </div>
-                    </a>
-                    <a href="#/Safety" className="animation">
-                        <div className="left">
-                            <p className="font">Read about our new Door-to-Door Safety Standard</p>
-                        </div>
-                    </a>
+                    <Underline url="#/Safety" text="Go to Grillber's COVID-19 Hub"/>
+                    <Underline url="#/Safety" text="Read about our new Door-to-Door Safety Standard"/>
                 </div>
             </div>
             <div className="wash-container flex">
