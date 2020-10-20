@@ -12,7 +12,7 @@ const Header = props => {
                     </Link>
                     <div className="hover flex">
                         <p>Company</p>
-                        <i class="fas fa-angle-down"></i>
+                        <i class="fas fa-angle-down white"></i>
                     </div>
                     <Link to='/Safety'>
                         <div className="hover flex">
@@ -28,15 +28,15 @@ const Header = props => {
                 </div>
                 <div className="flex">
                     <div className="hover flex">
-                        <i class="fas fa-globe"></i>
+                        <i class="fas fa-globe white"></i>
                         <p>EN</p>
                     </div>
                     <div className="hover flex">
-                        <i class="far fa-circle"></i>
+                        <i class="far fa-circle white"></i>
                         <p>Products</p>
                     </div>
                     <div className="hover flex">
-                        <i class="far fa-user"></i>
+                        <i class="far fa-user white"></i>
                         <p>Log in</p>
                     </div>
                     <div className="sign-up flex">

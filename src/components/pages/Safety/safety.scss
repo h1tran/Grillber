@@ -9,19 +9,9 @@
 
 .safety-wrap {
     padding-top: 15%;
-
-    .container {
-        h1.title {
-            color: white;
-        }
-
-        p {
-            font-size: 1.6rem;
-            font-family: 'Uber Move Text Light', sans-serif;
-            font-weight: 300;
-            margin: 0 0 1.5rem;
-            line-height: 1.5;
-        }
+    
+    h1.title {
+        color: white;
     }
 }
 
@@ -32,18 +22,11 @@
     padding-bottom: 6rem;
 
     h2 {
-        font-size: 3.6rem;
-        font-family: 'Uber Move Text', sans-serif;
-        font-weight: 600;
         color: #333333;
     }
 
     p {
-        font-size: 1.6rem;
-        font-family: 'Uber Move Text Light', sans-serif;
         font-weight: 400;
-        margin: 0 0 1.5rem;
-        line-height: 1.5;
         color: #333333;
         padding-bottom: 3%;
     }
@@ -85,5 +68,26 @@
 
     .flex {
         column-gap: 3rem;
+    }
+}
+
+.wash-container {
+    width: 100%;
+    background-color: #050c4d;
+    justify-content: center;
+
+    .flex {
+        width: 115rem;
+        justify-content: space-between;
+    }
+    
+    img {
+        padding: 6.5rem 0 6.5rem;
+    }
+
+    .flex-column {
+        padding-top: 2rem;
+        width: 46rem;
+        text-align: left;
     }
 }
