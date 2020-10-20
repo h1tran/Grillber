@@ -39,9 +39,11 @@ const Header = props => {
                         <i class="far fa-user white"></i>
                         <p>Log in</p>
                     </div>
-                    <div className="sign-up flex">
-                        <p>Sign up</p>
-                    </div>
+                    <Link to="/User-Signup">
+                        <div className="sign-up flex">
+                            <p>Sign up</p>
+                        </div>
+                    </Link>
                 </div>
             </div>
         </header>

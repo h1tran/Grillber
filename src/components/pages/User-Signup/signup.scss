@@ -1,0 +1,22 @@
+.bg-signin {
+    height: 100vh;
+    background-color: #f8f8f9;
+}
+
+.bg-pattern {
+    height: 4.2rem;
+    background: url("../../../assets/1477347860-pattern.png") center repeat;
+    background-size: contain;
+}
+
+.bg-square {
+    width: 10rem;
+    height: 10rem;
+    margin: -1.8rem;
+    background-color: black;
+    justify-content: center;
+
+    p {
+        margin: 0;
+    }
+}
