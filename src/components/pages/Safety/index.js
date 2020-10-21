@@ -9,7 +9,7 @@ const Safety = props => {
         <div className="background">
             <div className="safety-wrap">
                 <div className="container flex-column">
-                    <h1 className="title">Our approach to safety</h1>
+                    <h1 className="title white">Our approach to safety</h1>
                     <p className="font">We recognize that every time you open your Grillber app, you're putting your trust in our technology—to not only connect you with a driver, but to also give you resources in case of emergency. That trust is what drives us to continuously raise the bar, building new safety features, setting guidelines for respectful and positive experiences, and more.</p>
                     <p className="font">Whether you’re a renter, a rentee, or anyone who uses Grillber, your safety drives us.</p>
                 </div>

@@ -87,6 +87,7 @@ p {
     position: relative;
     height: 100%;
     margin: 0 auto;
+    padding-left: 8rem;
 
     p {
         user-select: none;
@@ -138,6 +139,7 @@ p {
     display: flex; flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    column-gap: 10rem;
 }
 
 .column {

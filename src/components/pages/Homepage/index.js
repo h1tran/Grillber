@@ -6,7 +6,7 @@ const Homepage = props => {
     return (
         <div className="flex-column">
             <div className="flex">
-                <div className="container">
+                <div className="container homepage-width">
                     <h1>Grillber with care</h1>
                     <h3>Help keep each other safe</h3>
                     <p className="black">The health and safety of the Grillber community is always our priority. We are actively monitoring the coronavirus (COVID‑19) situation and are taking steps to help keep those that rely on our platform safe.</p>
