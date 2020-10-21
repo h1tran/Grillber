@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Grillber/static/css/main.12f558a6.chunk.css",
-    "main.js": "/Grillber/static/js/main.e484becb.chunk.js",
-    "main.js.map": "/Grillber/static/js/main.e484becb.chunk.js.map",
+    "main.css": "/Grillber/static/css/main.b935e2ec.chunk.css",
+    "main.js": "/Grillber/static/js/main.ae60fda2.chunk.js",
+    "main.js.map": "/Grillber/static/js/main.ae60fda2.chunk.js.map",
     "runtime-main.js": "/Grillber/static/js/runtime-main.2cac7c0e.js",
     "runtime-main.js.map": "/Grillber/static/js/runtime-main.2cac7c0e.js.map",
     "static/js/2.f0048705.chunk.js": "/Grillber/static/js/2.f0048705.chunk.js",
     "static/js/2.f0048705.chunk.js.map": "/Grillber/static/js/2.f0048705.chunk.js.map",
     "index.html": "/Grillber/index.html",
-    "precache-manifest.d3c3c253b8a872f94c60ab28cb8254d6.js": "/Grillber/precache-manifest.d3c3c253b8a872f94c60ab28cb8254d6.js",
+    "precache-manifest.11a3283d6e219467b6ab60665358779c.js": "/Grillber/precache-manifest.11a3283d6e219467b6ab60665358779c.js",
     "service-worker.js": "/Grillber/service-worker.js",
-    "static/css/main.12f558a6.chunk.css.map": "/Grillber/static/css/main.12f558a6.chunk.css.map",
+    "static/css/main.b935e2ec.chunk.css.map": "/Grillber/static/css/main.b935e2ec.chunk.css.map",
     "static/js/2.f0048705.chunk.js.LICENSE.txt": "/Grillber/static/js/2.f0048705.chunk.js.LICENSE.txt",
     "static/media/signup.scss": "/Grillber/static/media/1477347860-pattern.46c1ae1d.png",
     "static/media/default.scss": "/Grillber/static/media/UberMoveTextRegular.56a881f5.otf",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.2cac7c0e.js",
     "static/js/2.f0048705.chunk.js",
-    "static/css/main.12f558a6.chunk.css",
-    "static/js/main.e484becb.chunk.js"
+    "static/css/main.b935e2ec.chunk.css",
+    "static/js/main.ae60fda2.chunk.js"
   ]
 }

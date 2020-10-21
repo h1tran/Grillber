@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Grillber/precache-manifest.d3c3c253b8a872f94c60ab28cb8254d6.js"
+  "/Grillber/precache-manifest.11a3283d6e219467b6ab60665358779c.js"
 );
 
 self.addEventListener('message', (event) => {
