@@ -15,7 +15,7 @@ const Homepage = props => {
                     </div>
                 </div>
                 <div>
-                    <img src={Shield} alt="Shield" />
+                    <embed src={Shield} alt="Shield" />
                 </div>
             </div>
         </div>

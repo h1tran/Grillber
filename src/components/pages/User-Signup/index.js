@@ -2,6 +2,7 @@ import React from 'react';
 import './signup.scss';
 
 import Input from './input.js';
+import Boat from './boat.js';
 
 const Signup = props => {
     return (
@@ -34,6 +35,21 @@ const Signup = props => {
                 <div className="flex up-position">
                     <Input label="Enter your password (required)" inside="Password" />
                 </div>
+            </div>
+            <div className="form-container flex column">
+                <div className="flex">
+                    <div className="flex sign-up-button text-left">
+                        <p className="font-signin sign-font">SIGN UP</p>
+                    </div>
+                </div>
+                <div className="flex">
+                    <p className="uber-color disclaimer">By clicking "Sign Up", you agree to Grillber's Terms of Use and acknowledge you have read the Privacy Policy. You also consent to receive calls or SMS messages, including by automated dialer, from Grillber and its affiliates to the number you provide for informational and/or marketing purposes. Consent to receive marketing messages is not a condition to use Grillber’s services. You understand that you may opt out by texting “STOP” to 89203.</p>
+                </div>
+            </div>
+            <div className="boat">
+                <Boat />
+            </div>
+            <div className="boat-ground">
             </div>
         </div>
     );

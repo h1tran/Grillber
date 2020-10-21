@@ -1,6 +1,6 @@
 .bg-signin {
     height: 100vh;
-    background-color: #f8f8f9;
+    background-color: #f8f8f8;
 }
 
 .bg-pattern {
@@ -37,12 +37,28 @@
 
 .form-container {
     text-align: left;
+    align-content: center;
+    justify-content: center;
     margin-top: 2.4rem;
     row-gap: 1rem;
 
     div.flex {
         width: 60rem;
         padding: 0 8rem 0 8rem;
+        justify-content: left;
+
+        .flex {
+            padding: 0 0 0 3rem;
+            margin-top: 12rem;
+            background-color: #11939A;
+            transition: all .1s ease-in-out;
+            cursor: pointer;
+        }
+
+        .flex:hover {
+            background-color: #13858b;
+            transition: all .1s ease-in-out;
+        }
     }
 }
 
@@ -62,10 +78,33 @@
     width: 0;
     height: 0;
     top: 5.6rem;
-    left: 19rem;
+    left: 19.6rem;
     color: rgba(128, 128, 128, 0.6);
 }
 
 .icon-phone {
-    left: 19.2rem;
+    left: 19.8rem;
+}
+
+.sign-font {
+    padding: 1.6rem 0 1.6rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.disclaimer {
+    margin-top: 0.6rem;
+    font-size: 0.9rem;
+    opacity: 80%;
+}
+
+.boat {
+    padding-top: 4.6rem;
+    background-color: #f8f8f8;
+}
+
+.boat-ground {
+    height: 1rem;
+    margin-top: -0.36rem;
+    background-color: black;
 }
