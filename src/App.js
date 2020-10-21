@@ -3,8 +3,9 @@ import Header from './components/Header'
 import Safety from './components/pages/Safety'
 import Homepage from './components/pages/Homepage';
 import UserSignup from './components/pages/User-Signup';
-import './default.scss';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+
+import './default.scss';
 
 function App() {
   return (

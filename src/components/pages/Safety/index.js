@@ -16,7 +16,7 @@ const Safety = props => {
             </div>
             <div className="safety-container">
                 <h2 className="header-font">Helping to keep each other safe during COVID-19</h2>
-                <p className="font">We’re actively monitoring the coronavirus (COVID-19) situation and are continually working to help keep those who rely on our platform healthy and safe.</p>
+                <p className="font uber-color">We’re actively monitoring the coronavirus (COVID-19) situation and are continually working to help keep those who rely on our platform healthy and safe.</p>
                 <div className="flex">
                     <Underline url="#/Safety" text="Go to Grillber's COVID-19 Hub"/>
                     <Underline url="#/Safety" text="Read about our new Door-to-Door Safety Standard"/>

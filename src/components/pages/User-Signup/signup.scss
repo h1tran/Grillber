@@ -9,14 +9,63 @@
     background-size: contain;
 }
 
+.font-header-signin {
+    font-size: 2.8rem;
+    font-family: 'Uber Move Text', 'Helvetica Neue', sans-serif;
+}
+
+.font-signin {
+    font-size: 1.4rem;
+    font-family: 'Uber Move Text Light', 'Helvetica Neue', sans-serif;
+}
+
+.bold {
+    font-weight: 600;
+}
+
 .bg-square {
     width: 10rem;
     height: 10rem;
-    margin: -1.8rem;
+    margin: -1.8rem 0 0 0;
     background-color: black;
     justify-content: center;
 
     p {
         margin: 0;
     }
+}
+
+.form-container {
+    text-align: left;
+    margin-top: 2.4rem;
+    row-gap: 1rem;
+
+    div.flex {
+        width: 60rem;
+        padding: 0 8rem 0 8rem;
+    }
+}
+
+.label-font {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1.2rem 0 1rem 0;
+}
+
+.up-position {
+    margin-top: -1rem;
+}
+
+.icon-signin {
+    position: relative;
+    width: 0;
+    height: 0;
+    top: 5.6rem;
+    left: 19rem;
+    color: rgba(128, 128, 128, 0.6);
+}
+
+.icon-phone {
+    left: 19.2rem;
 }

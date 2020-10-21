@@ -5,7 +5,7 @@ export default function underline(props) {
     return (
         <a href={props.url} className="animation">
             <div className="left">
-                <p className="font">{props.text}</p>
+                <p className="font uber-color">{props.text}</p>
             </div>
         </a>
     );

@@ -73,6 +73,10 @@ p {
     color: white;
 }
 
+.uber-color {
+    color: #333333;
+}
+
 .logo {
     font-family: 'Uber Move', sans-serif;
     font-size: 2rem;
@@ -134,4 +138,8 @@ p {
     display: flex; flex-direction: row;
     align-items: center;
     justify-content: space-around;
+}
+
+.column {
+    flex-direction: column;
 }
