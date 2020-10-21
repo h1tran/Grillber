@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "996aa421af4e014f1d5d910ef0251b7b",
+    "revision": "1a6a07a90944c93c0a08683f39b3c6fd",
     "url": "/Grillber/index.html"
   },
   {
-    "revision": "3222b57f72ec29b08f1a",
-    "url": "/Grillber/static/css/main.48046ce8.chunk.css"
+    "revision": "6640066ff3b4f0b3a66b",
+    "url": "/Grillber/static/css/main.94450273.chunk.css"
   },
   {
     "revision": "6f67d3466e89c0db9f7d",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Grillber/static/js/2.f0048705.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3222b57f72ec29b08f1a",
+    "revision": "6640066ff3b4f0b3a66b",
     "url": "/Grillber/static/js/main.0f90213c.chunk.js"
   },
   {
