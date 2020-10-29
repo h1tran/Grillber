@@ -87,7 +87,7 @@ p {
     position: relative;
     height: 100%;
     margin: 0 auto;
-    padding-left: 8rem;
+    padding-left: 6rem;
 
     p {
         user-select: none;
@@ -97,8 +97,9 @@ p {
     div.hover {
         height: 3.6rem;
         width: max-content;
-        padding: 0 1.2rem 0 1.2rem;
-        background-color: rgb(0, 0, 0);
+        padding: 0 1rem;
+        border-radius: 60px;
+        transition: all .3s ease-in-out;
     }
 
     div.hover:hover {
@@ -108,7 +109,7 @@ p {
     div.sign-up {
         height: 3.6rem;
         width: max-content;
-        padding: 0 1.2rem 0 1.2rem;
+        padding: 0 1.2rem;
         background-color: rgb(255, 255, 255);
         border-radius: 35px;
 
@@ -139,9 +140,83 @@ p {
     display: flex; flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    column-gap: 10rem;
+    column-gap: 12rem;
+}
+
+.flexgap-4 {
+    column-gap: 1.2rem;
 }
 
 .column {
     flex-direction: column;
+}
+
+.dropdown {
+    position: relative;
+    width: max-content;
+}
+
+.dropdown-content {
+    opacity: 0;
+    height: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 4.2rem;
+    min-width: 19rem;
+    // z-index measures relative layer position for foreground/background.
+    z-index: 1;
+    transition: all 0.2s ease-in;
+
+    p {
+        padding: 0;
+        line-height: 0;
+        visibility: hidden;
+    }
+}
+
+.dropdown-content:hover {
+    border-radius: 0px;
+}
+
+.show {
+    opacity: 1;
+    height: auto;
+    pointer-events: all;
+    background-color: #ffffff;
+    box-shadow: 0 0.8rem 1.2rem 0 rgba(0, 0, 0, 0.2);
+    transform: translateY(1rem);
+
+    p {
+        padding: 1.4rem 1.6rem;
+        font-size: 1.4rem;
+        line-height: 0.8rem;
+        visibility: visible;
+        color: #7c7c7c;
+        width: 100%;
+        transition: color 0.1s ease-in;
+    }
+
+    p:first-child {
+        padding-top: 2rem;
+    }
+    
+    p:last-child {
+        padding-bottom: 2rem;
+    }
+
+    p:hover {
+        color: rgb(0, 0, 0);
+        background-color: rgb(245, 245, 245);
+        border-radius: 0px;
+        transition: color 0.1s ease-in;
+    }
+}
+
+.transition-1s {
+    transition: all .1s ease-in-out;
+}
+
+.bg-active {
+    background-color: rgb(80, 80, 80);
+    pointer-events: none;
 }
