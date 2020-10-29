@@ -197,11 +197,11 @@ p {
     }
 
     p:first-child {
-        padding-top: 2rem;
+        margin-top: 0.4rem;
     }
     
     p:last-child {
-        padding-bottom: 2rem;
+        margin-bottom: 1rem;
     }
 
     p:hover {
