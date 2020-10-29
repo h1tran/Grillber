@@ -12,8 +12,10 @@ const Header = props => {
     // On click, if the element is NOT the button, then toggle "show" to remove dropdown.
     window.onclick = function(event) {
         if (!document.getElementById("bg-highlight").contains(event.target)) {
-            if (document.getElementById("bg-highlight").classList.contains("bg-active"))
+            if (document.getElementById("bg-highlight").classList.contains("bg-active")) {
                 document.getElementById("bg-highlight").classList.toggle("bg-active");
+                toggleArrow();
+            }
             let dropdowns = document.getElementsByClassName("dropdown-content");
             for (let i = 0; i < dropdowns.length; i++) {
                 var openDropdown = dropdowns[i];
