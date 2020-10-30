@@ -88,10 +88,14 @@ p {
     height: 100%;
     margin: 0 auto;
     padding-left: 6rem;
-
+    
     p {
         user-select: none;
         width: max-content;
+    }
+
+    div.flex {
+        cursor: default;
     }
 
     div.hover {
@@ -101,8 +105,9 @@ p {
         border-radius: 60px;
         transition: all .3s ease-in-out;
     }
-
+    
     div.hover:hover {
+        cursor: pointer;
         background-color: rgb(55, 55, 55);
     }
 
@@ -124,7 +129,6 @@ p {
 }
 
 .wrap *:hover {
-    cursor: pointer;
     border-radius: 60px;
     transition: all .3s ease-in-out;
 }

@@ -2,40 +2,42 @@ import React from 'react';
 import './styles.scss';
 import { Link } from 'react-router-dom';
 
-const Header = props => {
-
-    function showDropdownContent() {
-        document.getElementById("myDropdown").classList.toggle("show");
-        document.getElementById("bg-highlight").classList.toggle("bg-active");
-    }
-
-    // On click, if the element is NOT the button, then toggle "show" to remove dropdown.
-    window.onclick = function(event) {
+// On click, if the element is NOT the button, then toggle "show" to remove dropdown.
+// Code snippet obtained from W3 Schools.
+window.onclick = function (event) {
+    if (document.getElementById("bg-highlight") !== null)
         if (!document.getElementById("bg-highlight").contains(event.target)) {
             if (document.getElementById("bg-highlight").classList.contains("bg-active")) {
                 document.getElementById("bg-highlight").classList.toggle("bg-active");
                 toggleArrow();
             }
-            let dropdowns = document.getElementsByClassName("dropdown-content");
-            for (let i = 0; i < dropdowns.length; i++) {
-                var openDropdown = dropdowns[i];
-                if (openDropdown.classList.contains('show')) {
-                    openDropdown.classList.remove('show');
-                }
+        let dropdowns = document.getElementsByClassName("dropdown-content");
+        for (let i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
             }
         }
     }
+}
 
-    function toggleArrow() {
-        if (document.getElementById("arrow-down").classList.contains("fa-angle-down")) {
-            document.getElementById("arrow-down").classList.remove("fa-angle-down");
-            document.getElementById("arrow-down").classList.add("fa-angle-up");
-        }
-        else {
-            document.getElementById("arrow-down").classList.remove("fa-angle-up");
-            document.getElementById("arrow-down").classList.add("fa-angle-down");
-        }
+function showDropdownContent() {
+    document.getElementById("myDropdown").classList.toggle("show");
+    document.getElementById("bg-highlight").classList.toggle("bg-active");
+}
+
+function toggleArrow() {
+    if (document.getElementById("arrow-down").classList.contains("fa-angle-down")) {
+        document.getElementById("arrow-down").classList.remove("fa-angle-down");
+        document.getElementById("arrow-down").classList.add("fa-angle-up");
     }
+    else {
+        document.getElementById("arrow-down").classList.remove("fa-angle-up");
+        document.getElementById("arrow-down").classList.add("fa-angle-down");
+    }
+}
+
+const Header = props => {
 
     return (
         <header className="header">
